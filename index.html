@@ -1,28 +1,68 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Itim&family=Playwrite+PT:wght@100..400&display=swap" rel="stylesheet">    
-    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
-    <title>Govindam</title>
+  <meta charset="UTF-8">
+  <!-- 👇 very important for responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Itim&family=Playwrite+PT:wght@100..400&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+  <title>Govindam</title>
+
+  <style>
+    body {
+      font-family: "Itim", cursive;
+      margin: 0;
+      padding: 16px;
+      background: #fffaf0;
+      color: #222;
+    }
+
+    h1 {
+      font-family: "Merienda", cursive;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 90%;
+      max-width: 300px; /* 👈 auto scales on any device */
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid gold;
+    }
+
+    ul {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      list-style-type: circle;
+    }
+
+    hr {
+      margin: 20px 0;
+    }
+
+    p {
+      text-align: center;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    /* 👇 responsive tweaks for small screens */
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      ul {
+        font-size: 1rem;
+      }
+      img {
+        max-width: 220px;
+      }
+    }
+  </style>
 </head>
-<style>
-h1{
-  font-family: "Merienda", cursive;
-}
-body{
-  font-family: "Itim", cursive;
-}
-ul{
-  font-size: 20px;
-}
-
-
-
-</style> 
 <body>
   <h1 align="center"><u>BIODATA</u></h1>  
     <img src="./IMG_20251001_010753.jpg" style="display:block; margin:auto; width:600px; height:600px; border-radius:50%; object-fit:cover; border:5px solid gold;">
@@ -64,6 +104,7 @@ ul{
 </body>
 
 </html>
+
 
 
 
